@@ -1,3 +1,5 @@
 discord.py[voice]
 pillow
 yt_dlp
+requests
+asyncio
