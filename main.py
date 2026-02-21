@@ -24,6 +24,8 @@ class sclient(discord.Client):
     async def setup_hook(self) -> None:
         await self.tree.sync()
         print(f"we have signed in as {client.user}")
+        os.mkdir("images")
+        os.mkdir("sounds")
 
 client = sclient()
 
